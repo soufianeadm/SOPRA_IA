@@ -20,8 +20,6 @@ def main():
         print(gcp_project, credentials)
     except:
         print("ca a merde")
-        print("ca a merde")
-        print("ca a merde2")
 
 
     vertexai.init(project=gcp_project, location="us-central1")
